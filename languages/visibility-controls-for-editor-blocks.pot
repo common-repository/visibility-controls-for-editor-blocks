@@ -1,0 +1,203 @@
+# Copyright (C) 2024 Denis Doroshchuk
+# This file is distributed under the GPLv3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Visibility Controls for Editor Blocks 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/visibility-controls-for-editor-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-24T20:07:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: visibility-controls-for-editor-blocks\n"
+
+#. Plugin Name of the plugin
+#: visibility-controls-for-editor-blocks.php
+msgid "Visibility Controls for Editor Blocks"
+msgstr ""
+
+#. Description of the plugin
+#: visibility-controls-for-editor-blocks.php
+msgid "Adds controls to hide blocks on mobile, tablet, and desktop devices in Gutenberg."
+msgstr ""
+
+#. Author of the plugin
+#: visibility-controls-for-editor-blocks.php
+msgid "Denis Doroshchuk"
+msgstr ""
+
+#. Author URI of the plugin
+#: visibility-controls-for-editor-blocks.php
+msgid "https://doroshchuk.me/"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:77
+msgid "Visibility Controls for Gutenberg Blocks"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:77
+msgid "Gutenberg Blocks Visibility"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:108
+msgid "Breakpoints Settings"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:111
+msgid "Mobile Breakpoint (px)"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:114
+msgid "Tablet Breakpoint (px)"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:117
+msgid "Desktop Breakpoint (px)"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:120
+msgid "Advanced Settings"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:123
+msgid "Styles loading"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:140
+msgid "Configure the breakpoints for mobile, tablet and desktop devices."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:152
+msgid "Disable CSS loading on pages without Gutenberg"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:153
+msgid "When this option is enabled, the plugin will prevent loading its CSS code on pages that do not use the Gutenberg editor."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:153
+msgid "This includes archive pages such as categories and tags, as well as other pages that do not contain Gutenberg blocks."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:160
+msgid "This option defines the screen width (in pixels) that determines a mobile device."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:160
+msgid "Blocks hidden on mobile will be hidden on screens this size or smaller."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:160
+msgid "Recommended: between 320px and 600px for mobiles."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:167
+msgid "This option defines the screen width (in pixels) that determines a tablet device."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:167
+msgid "Blocks hidden on tablets will be hidden on screens this size or smaller."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:167
+msgid "Recommended: between 601px and 1024px for tablets."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:172
+msgid "Note: "
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:172
+msgid "There's no input for the desktop breakpoint because it is automatically defined"
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:172
+msgid "Any screen wider than the tablet breakpoint will be considered a desktop."
+msgstr ""
+
+#: visibility-controls-for-editor-blocks.php:177
+msgid "Settings"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:51
+#: build/gbvc-editor.js:1
+msgid "Hidden on Mobile"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:52
+#: build/gbvc-editor.js:1
+msgid " and Tablet"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:52
+#: build/gbvc-editor.js:1
+msgid "Hidden on Tablet"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:53
+#: build/gbvc-editor.js:1
+msgid " and Desktop"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:53
+#: build/gbvc-editor.js:1
+msgid "Hidden on Desktop"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:56
+#: build/gbvc-editor.js:1
+msgid " and Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:56
+#: build/gbvc-editor.js:1
+msgid "Hidden for Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:60
+#: build/gbvc-editor.js:1
+msgid " and Non-Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:60
+#: build/gbvc-editor.js:1
+msgid "Hidden for Non-Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:101
+#: build/gbvc-editor.js:1
+msgid "Visibility Settings"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:105
+#: build/gbvc-editor.js:1
+msgid "Hide on Mobile"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:115
+#: build/gbvc-editor.js:1
+msgid "Hide on Tablet"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:125
+#: build/gbvc-editor.js:1
+msgid "Hide on Desktop"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:135
+#: build/gbvc-editor.js:1
+msgid "Hide for Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:145
+#: build/gbvc-editor.js:1
+msgid "Hide for Non-Logged-in Users"
+msgstr ""
+
+#: assets/js/gbvc-editor.js:163
+#: build/gbvc-editor.js:1
+msgid "Configure Breakpoints"
+msgstr ""
